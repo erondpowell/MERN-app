@@ -4,3 +4,4 @@
 ## dependencies:
 ### node_modules   --->   npm install
 ### router   --->    npm install --save react-router-dom@5 --save-exact
+### react-transition-group --->    npm install  --save react-transition-group
