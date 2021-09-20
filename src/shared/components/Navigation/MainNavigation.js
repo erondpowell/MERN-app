@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import MainHeader from "./MainHeader";
 import NavLinks from "./NavLinks";
-import Backdrop from "../UIElemets/Backdrop/Backdrop";
+import Backdrop from "../UIElements/Backdrop/Backdrop";
 import SideDrawer from "./SideDrawer";
 
 import "./MainNavigation.css";
