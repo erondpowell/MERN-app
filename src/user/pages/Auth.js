@@ -11,7 +11,7 @@ import {
   VALIDATOR_MINLENGTH,
   VALIDATOR_REQUIRE,
 } from "../../shared/util/validators";
-import {useHttpClient} from "../../shared/hooks/http-hook";
+import { useHttpClient } from "../../shared/hooks/http-hook";
 import { useForm } from "../../shared/hooks/form-hook";
 import { AuthContext } from "../../shared/context/auth-context";
 import "./Auth.css";
@@ -45,7 +45,7 @@ const Auth = () => {
       } catch (err) {}
     } else {
       try {
-        const response = await sendRequest(
+        await sendRequest(
           "http://localhost:5000/api/users/signup",
           "POST",
           JSON.stringify({
