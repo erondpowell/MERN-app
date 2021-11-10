@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+//useHistory hook helps you redirect the page
 import { useHistory } from "react-router-dom";
 
 import "./PlaceForm.css";
